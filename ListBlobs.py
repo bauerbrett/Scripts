@@ -8,7 +8,7 @@ credential = DefaultAzureCredential()
 
 #Define list_blobs function
 def list_blobs(container_name):
-    blob_service_client = BlobServiceClient(account_url="https://cloudstoragebaueraz.blob.core.windows.net", credential=credential)
+    blob_service_client = BlobServiceClient(account_url="https://cloudstorage.blob.core.windows.net", credential=credential)
     container_client = blob_service_client.get_container_client(container_name)
     
     #List blobs from container client
