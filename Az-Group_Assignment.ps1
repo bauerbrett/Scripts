@@ -51,4 +51,4 @@ $GroupAssignments | ForEach-Object {
 $GroupAssignments = $GroupAssignments | Where-Object { $_.GroupDisplayName -ne $null }
 
 # Export the data to CSV
-$GroupAssignments | Export-Csv -Path "/home/brett/membergroups.csv" -NoTypeInformation
+$GroupAssignments | Export-Csv -Path "/home/membergroups.csv" -NoTypeInformation
