@@ -44,7 +44,7 @@ def list_blobs(container_name):
 #Create the main function
 def main():
 
-    blob_container = "terraform-project"
+    blob_container = "your-container"
 
     blobs_data = list_blobs(blob_container) #Use the list_blobs function with the blob_container name
 
