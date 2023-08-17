@@ -1,2 +1,2 @@
 # Scripts
-Some scripts I have written for Azure to automate some things.
+Scripts I have written for Azure to automate a couple of my work tasks.
